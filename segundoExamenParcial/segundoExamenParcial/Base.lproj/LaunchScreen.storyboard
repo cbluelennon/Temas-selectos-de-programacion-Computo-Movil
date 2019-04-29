@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Queen: THE APP X" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bNW-bx-UGl">
+                                <rect key="frame" x="49" y="52.5" width="277" height="39.5"/>
+                                <color key="backgroundColor" red="0.24080797919999999" green="0.57133927689999997" blue="0.88670068690000003" alpha="0.82491438360000002" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="39.5" id="XuN-7z-7ne"/>
+                                    <constraint firstAttribute="width" constant="277" id="YHx-xb-gRh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="freddy" translatesAutoresizingMaskIntoConstraints="NO" id="2vA-JX-gQG">
+                                <rect key="frame" x="26" y="133" width="322" height="183"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="322" id="6tY-qv-jZB"/>
+                                    <constraint firstAttribute="height" constant="183" id="bPw-XF-XT8"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="bhd-45-cIK">
+                                <rect key="frame" x="32" y="355" width="311" height="77.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&quot;Las mujeres son como las obras de arte" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gwE-II-cAX">
+                                        <rect key="frame" x="0.0" y="0.0" width="311" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="modernas. Si tratas de entenderlas, no " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZJK-TG-ugF">
+                                        <rect key="frame" x="5.5" y="28.5" width="300" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="podras disfrutarlas" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bvK-sf-uVH">
+                                        <rect key="frame" x="83.5" y="57" width="144" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="311" id="kHM-OC-ObS"/>
+                                    <constraint firstAttribute="height" constant="77.5" id="uFY-jC-4ui"/>
+                                </constraints>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CARGANDO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="34d-S2-6dG">
+                                <rect key="frame" x="116" y="493" width="143" height="32"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="143" id="IRb-oZ-Odr"/>
+                                    <constraint firstAttribute="height" constant="32" id="Xsp-VX-ORx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <color key="textColor" red="0.65882695260000002" green="0.92458778620000004" blue="0.5959394912" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.64129886415481696" green="0.94501811998720531" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="34d-S2-6dG" firstAttribute="top" secondItem="bhd-45-cIK" secondAttribute="bottom" constant="60.5" id="6th-r3-peJ"/>
+                            <constraint firstItem="2vA-JX-gQG" firstAttribute="top" secondItem="bNW-bx-UGl" secondAttribute="bottom" constant="41" id="G7X-dF-RbL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="34d-S2-6dG" secondAttribute="bottom" constant="142" id="Hcf-AP-yOe"/>
+                            <constraint firstItem="bNW-bx-UGl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="49" id="J4F-Pn-1TE"/>
+                            <constraint firstItem="bNW-bx-UGl" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="32.5" id="O0k-eH-eWT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bNW-bx-UGl" secondAttribute="trailing" constant="49" id="RJ1-AV-niE"/>
+                            <constraint firstItem="2vA-JX-gQG" firstAttribute="top" secondItem="bNW-bx-UGl" secondAttribute="bottom" constant="41" id="VkA-2C-hM2"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bhd-45-cIK" secondAttribute="trailing" constant="32" id="X5h-4b-YBR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="2vA-JX-gQG" secondAttribute="bottom" constant="351" id="X73-Xq-sHA"/>
+                            <constraint firstItem="bhd-45-cIK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="aNd-Z6-2jd"/>
+                            <constraint firstItem="bhd-45-cIK" firstAttribute="top" secondItem="2vA-JX-gQG" secondAttribute="bottom" constant="39" id="iaf-Pf-icN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="34d-S2-6dG" secondAttribute="trailing" constant="116" id="mAR-ef-4Lq"/>
+                            <constraint firstItem="2vA-JX-gQG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="26" id="nbj-Gm-ckG"/>
+                            <constraint firstItem="34d-S2-6dG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="116" id="owW-3g-NCE"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="freddy" width="1200" height="639"/>
+    </resources>
+</document>
